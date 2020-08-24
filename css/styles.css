@@ -1,0 +1,115 @@
+body{font-family: Roboto}
+.navbar{
+    background: rgb(133,100,18);
+background: linear-gradient(225deg, rgba(133,100,18,0.9780287114845938) 0%, rgba(214,161,28,0.9304096638655462) 30%, rgba(241,182,33,0.76234243697479) 100%);;
+    border-radius: 10px;
+    border-style: inset ;   
+}
+.navbar-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-item{
+    padding: 0px 20px;
+    justify-content: space-evenly ;
+}
+.nav-item a{
+text-decoration: none;
+font-size: 20px;
+color: navy;
+}
+.nav-item a:hover{ 
+    color: khaki;
+}
+.nav-item a:active{ 
+    color:gray ;
+}
+.nav-item:first-child {
+    margin-right: auto;
+}
+.search{
+margin-left: auto;
+font-size: 20px;
+align-items: center;
+/* color: ; */
+}
+h1{
+color: lime;
+}
+h2{
+color: green;
+}
+h3{
+color: peru;
+}
+h4{
+color: olive;
+}
+.b-link{
+color:blue;
+font-style: oblique;
+text-decoration-style: dotted;
+text-decoration-color: blueviolet;
+font-size: 20px;
+text-decoration-line: underline;
+/* text-decoration: none; */
+}
+p{
+text-align: justify;
+text-justify: auto;
+border: orchid;
+border-style: double;
+border-radius: 5px;
+padding: 0.5rem;
+}
+footer{
+    background: rgb(133,100,18);
+    background: linear-gradient(360deg, rgba(133,100,18,0.8799894957983193) 0%, rgba(214,161,28,0.87718837535014) 30%, rgba(241,182,33,0.4542191876750701) 100%);
+display: flex;
+justify-content: center;
+padding: 0.5rem;
+margin-top: 0.5rem;
+
+}
+.footer-foot{
+list-style: none;
+padding: 0;
+margin: 0; 
+align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.footer-foot:first-child{
+color: brown;
+font-size: x-large;
+}
+.footer-item a{
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+    font-style: oblique;
+}
+.footer-item a:hover{
+color: khaki;
+}
+.footer-item a:active{
+    color: gray;
+}
+.social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social .social-item{
+display: flex;
+align-items: center;
+}
+
