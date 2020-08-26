@@ -1,9 +1,11 @@
+/* @media screen and (max-width: 500px)
+{ */
 body{font-family: Roboto}
 .navbar{
     background: rgb(133,100,18);
 background: linear-gradient(225deg, rgba(133,100,18,0.9780287114845938) 0%, rgba(214,161,28,0.9304096638655462) 30%, rgba(241,182,33,0.76234243697479) 100%);;
     border-radius: 10px;
-    border-style: inset ;   
+    border-style: inset ;
 }
 .navbar-nav{
     list-style: none;
@@ -112,4 +114,35 @@ color: khaki;
 display: flex;
 align-items: center;
 }
-
+.partners{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.partners .partner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.signup{
+color: olive;
+font-size: large;
+padding-bottom: 1rem;
+border: none;
+padding: 0;
+margin-bottom: 1rem;
+font: icon;
+}
+.feedback{
+display: flex;
+}
+/* .feedback .send{
+display: flex;
+align-items: baseline;
+}  */
